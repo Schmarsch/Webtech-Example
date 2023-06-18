@@ -1,0 +1,16 @@
+{
+    "restartable": "rs",
+    "ignore": [
+        ".git",
+        "node_modules/**/node_modules"
+    ],
+    "watch": [
+        "middlewares",
+        "modules",
+        "public",
+        "routes",
+        "views",
+        "app.js"
+    ],
+    "ext": "js,json, html, css"
+}
